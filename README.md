@@ -16,8 +16,11 @@ This repository serves as a reference for controlling basic components with a Ra
 - **src/**  
   Houses the main source code files used for implementing the various functionalities of the project.
 
+- **test/**  
+  Contains source code files used for testing individual components using the same header files.
+
 - **Makefile**  
-  A configuration file used to build the project. Each component has a dedicated build target, and a general target (`make all`) is provided to compile the main program that tests all components.
+  A configuration file used to build the project. Each component has a dedicated build target, and a general target (`make`) is provided to compile the main program that tests all components.
 
 ---
 
